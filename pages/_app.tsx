@@ -7,6 +7,8 @@ import type { AppProps } from 'next/app'
 import { ManagedUIContext } from '@components/ui/context'
 import { Head } from '@components/core'
 
+// 
+
 const Noop: FC = ({ children }) => <>{children}</>
 
 export default function MyApp({ Component, pageProps }: AppProps) {
